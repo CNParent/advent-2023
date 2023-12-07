@@ -40,7 +40,7 @@ scripts.day3_2 = async () => {
         .map(g => g[0].value * g[1].value);
     
     
-    terminal.textContent += `Found ${gearRatios.length} gears`;
+    terminal.textContent += `Found ${gearRatios.length} gears\r\n`;
 
     let sum = gearRatios.reduce((a,b) => a + b, 0);
     terminal.textContent += `The sum of all gear ratios is ${sum}`;
